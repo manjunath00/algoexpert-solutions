@@ -15,11 +15,11 @@ int binary_search_helper(int arr[], int target, int left, int right) {
 	}
 
 	int middle = (left + right) / 2;
-	int currentMatch = arr[middle];
+	int current_match = arr[middle];
 
-	if(currentMatch == target) {
+	if(current_match == target) {
 		return middle;
-	} else if(currentMatch > target) {
+	} else if(current_match > target) {
 		return binary_search_helper(arr, target, left, middle - 1);
 	} else {
 		return binary_search_helper(arr, target, middle + 1, right);
@@ -30,11 +30,11 @@ int binary_search_helper(int arr[], int target, int left, int right) {
 int binary_search(int arr[], int target, int left, int right) {
 	while(left <= right) {
 		int middle = (left + right) / 2;
-		int currentMatch = arr[middle];
+		int current_match = arr[middle];
 
-		if(currentMatch == target) {
+		if(current_match == target) {
 			return middle;
-		} else if(currentMatch > target) {
+		} else if(current_match > target) {
 			right = middle - 1;
 		} else {
 			left = middle + 1;
@@ -54,9 +54,4 @@ int main() {
 	cout << binary_search(arr, target, left, right) << endl;
 }
 
-/*
-	prerequisite: the array elements must be sorted
-
-	question: 
-		Write a function that takes in a sorted array of integers as well as a target integer. The function should use the Binary Search algorithm to find if the target number is contained in the array and should return its index if it is, otherwise -1.
-*/
+/* prerequisite: the array elements must be sorted */
