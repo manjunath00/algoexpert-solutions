@@ -1,6 +1,8 @@
 # AlgoExpert Solutions
 
-This repository contains the solution to the curated problems present in [algoexpert](http://algoexpert.com) website.
+![AlgoExpert](https://res.cloudinary.com/tylerdurden/image/upload/v1608222138/random/Group_3_pfu6vp.png)
+
+This repository contains the solution to the problems present in [algoexpert](http://algoexpert.com). As you can see from the banner above, the problems are solved using C++ backed by unit testing.
 
 ## Directory Structure
 
@@ -13,6 +15,20 @@ day2/bst_construction/
     └── main.cpp
 ```
 
+- The <code>question.md</code> file contains the question for the problem. 
+- The cpp source code will be in <code>src</code> directory. 
+- Each problem will have it's own header file and source file. 
+- The <code>main.cpp</code> file is used for executing test cases.
+
+## Running locally
+
+-  Make sure to install [gtest](https://github.com/google/googletest) in your machine
+-  Go to any src directory and execute the following command:
+
+	```bash
+	g++ -c *.cpp && g++ -o main *.o -lgtest && ./main
+	```
+
 ## Array problems
 
 | Problems      | Links                                             |
@@ -21,10 +37,10 @@ day2/bst_construction/
 
 ## Tree problems
 
-| Problems                    | Links                                                                     |
-| --------------------------- | ------------------------------------------------------------------------- |
-| BST Construction            | [visit](day2/bst_construction/src/bst.cpp)                                |
-| Branch Sums                 | [visit](day1/branchsums/branchsums.cpp)                                 |
+| Problems                    | Links                                                               |
+| --------------------------- | ------------------------------------------------------------------- |
+| BST Construction            | [visit](day2/bst_construction/src/bst.cpp)                          |
+| Branch Sums                 | [visit](day1/branchsums/branchsums.cpp)                             |
 | Find nearest element in BST | [visit](day1/nearest_element_in_bst/src/nearest_element_in_bst.cpp) |
 
 ## Data Structure implementation
