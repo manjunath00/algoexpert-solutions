@@ -1,4 +1,3 @@
-#include <cstddef>
 #include <vector>
 
 struct Node {
@@ -8,10 +7,10 @@ struct Node {
 }
 
 void calculate_branch_sums(Node *tree, int runningSum, vector<int> &sums) {
-  if(tree == NULL) return;
+  if(tree == nullptr) return;
 
   runningSum += tree->data;
-  if(tree->left == NULL && tree->right == NULL) {
+  if(tree->left == nullptr && tree->right == nullptr) {
     sums.push_back(runningSum)
     return;
   }
