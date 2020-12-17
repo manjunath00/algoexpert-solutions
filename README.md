@@ -17,7 +17,7 @@ day2/bst_construction/
 
 | Problems      | Links                                       |
 | ------------- | ------------------------------------------- |
-| Binary Search | [visit](day1/binarysearch/binarysearch.cpp) |
+| Binary Search | [visit](day1/binary_search/src/binary_search.cpp) |
 
 ## Tree problems
 
