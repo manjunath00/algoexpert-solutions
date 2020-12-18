@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// O(n) time / O(1) space
 bool validate_subsequence(vector<int> arr, vector<int> sequence) {
   int arr_idx = 0;
   int seq_idx = 0;
