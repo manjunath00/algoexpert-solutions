@@ -15,7 +15,6 @@ TEST(ProductSumTest, ReturnsProductSum) {
   arr.push_back(3);
   arr.push_back(input);
 
-
   ASSERT_EQ(product_sum(arr), 12);
 }
 

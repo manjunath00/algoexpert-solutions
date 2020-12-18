@@ -26,7 +26,11 @@ day2/bst_construction/
 - Go to any src directory and execute the following command:
 
   ```bash
-  g++ -c *.cpp && g++ -o main *.o -lgtest && ./main
+  g++ --std=c++17 -c *.cpp &&
+
+  g++ --std=c++17 -o main *.o -lgtest
+
+  ./main
   ```
 
 ## Array problems
