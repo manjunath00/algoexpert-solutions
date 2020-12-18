@@ -1,6 +1,6 @@
 # AlgoExpert Solutions
 
-![AlgoExpert](https://res.cloudinary.com/tylerdurden/image/upload/v1608222138/random/Group_3_pfu6vp.png)
+![AlgoExpert](https://res.cloudinary.com/tylerdurden/image/upload/v1608262817/random/banner_kkv617.png)
 
 This repository contains the solution to the problems present in [algoexpert](http://algoexpert.com). As you can see from the banner above, the problems are solved using C++ backed by unit testing.
 
