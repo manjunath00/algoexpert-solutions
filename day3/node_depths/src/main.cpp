@@ -17,7 +17,8 @@ class NodeDepthsTest : public ::testing::Test {
 };
 
 TEST_F(NodeDepthsTest, ReturnsNodeDepth) {
-  ASSERT_EQ(node_depths(t), 8);
+  EXPECT_EQ(node_depths_recursive(t), 8);
+  EXPECT_EQ(node_depths_iterative(t), 8);
 }
 
 int main(int argc, char **argv) {
