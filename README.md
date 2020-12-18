@@ -31,16 +31,16 @@ day2/bst_construction/
 
 ## Array problems
 
-| Problems             | Links                                             |
-| -------------------- | ------------------------------------------------- |
-| Binary Search        | [visit](day1/binary_search/src/binary_search.cpp) |
+| Problems             | Links                                                           |
+| -------------------- | --------------------------------------------------------------- |
+| Binary Search        | [visit](day1/binary_search/src/binary_search.cpp)               |
 | Validate Subsequence | [visit](day3/validate_subsequence/src/validate_subsequence.cpp) |
+| Product Sum          | [visit](day3/product_sum/src/product_sum.cpp)                   |
 
 ## Tree problems
 
 | Problems                    | Links                                                               |
 | --------------------------- | ------------------------------------------------------------------- |
-| BST Construction            | [visit](day2/bst_construction/src/bst.cpp)                          |
 | Branch Sums                 | [visit](day1/branchsums/branchsums.cpp)                             |
 | Find nearest element in BST | [visit](day1/nearest_element_in_bst/src/nearest_element_in_bst.cpp) |
 | Node Depths                 | [visit](day3/node_depths/src/node_depths.cpp)                       |
