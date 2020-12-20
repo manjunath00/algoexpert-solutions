@@ -7,11 +7,11 @@ This repository contains the solution to the problems present in [algoexpert](ht
 ## Directory Structure
 
 ```bash
-day2/bst_construction/
+searching/binary_search/
 ├── question.md
 └── src
-    ├── bst.cpp
-    ├── bst.h
+    ├── binary_search.cpp
+    ├── binary_search.h
     └── main.cpp
 ```
 
@@ -26,7 +26,7 @@ day2/bst_construction/
 - Go to any src directory and execute the following command:
 
   ```bash
-  g++ --std=c++17 -c *.cpp &&
+  g++ --std=c++17 -c *.cpp
 
   g++ --std=c++17 -o main *.o -lgtest
 
@@ -37,32 +37,32 @@ day2/bst_construction/
 
 | Problems             | Links                                                           |
 | -------------------- | --------------------------------------------------------------- |
-| Binary Search        | [visit](day1/binary_search/src/binary_search.cpp)               |
-| Validate Subsequence | [visit](day3/validate_subsequence/src/validate_subsequence.cpp) |
-| Product Sum          | [visit](day3/product_sum/src/product_sum.cpp)                   |
+| Validate Subsequence | [visit](arrays/validate_subsequence/src/validate_subsequence.cpp) |
+
+## Searching
+
+| Problems      | Links                                             |
+| ------------- | ------------------------------------------------- |
+| Binary Search | [visit](searching/binary_search/src/binary_search.cpp) |
 
 ## Tree problems
 
 | Problems                    | Links                                                               |
 | --------------------------- | ------------------------------------------------------------------- |
-| Branch Sums                 | [visit](day1/branchsums/branchsums.cpp)                             |
-| Find nearest element in BST | [visit](day1/nearest_element_in_bst/src/nearest_element_in_bst.cpp) |
-| Node Depths                 | [visit](day3/node_depths/src/node_depths.cpp)                       |
-
-## Data Structure implementation
-
-| Problems         | Links                                      |
-| ---------------- | ------------------------------------------ |
-| BST Construction | [visit](day2/bst_construction/src/bst.cpp) |
+| BST Construction            | [visit](trees/bst_construction/src/bst.cpp)                          |
+| Branch Sums                 | [visit](trees/branchsums/branchsums.cpp)                             |
+| Find nearest element in BST | [visit](trees/nearest_element_in_bst/src/nearest_element_in_bst.cpp) |
+| Node Depths                 | [visit](trees/node_depths/src/node_depths.cpp)                       |
 
 ## String problems
 
 | Problems       | Links                                               |
 | -------------- | --------------------------------------------------- |
-| Group Anagrams | [visit](day2/group_anagrams/src/group_anagrams.cpp) |
+| Group Anagrams | [visit](strings/group_anagrams/src/group_anagrams.cpp) |
 
-## Others
+## Recursion
 
-| Problems       | Links                                 |
-| -------------- | ------------------------------------- |
-| Nth Fibonaccit | [visit](day2/nth_fib/src/nth_fib.cpp) |
+| Problems       | Links                                         |
+| -------------- | --------------------------------------------- |
+| Nth Fibonaccit | [visit](recursion/nth_fib/src/nth_fib.cpp)         |
+| Product Sum    | [visit](recursion/product_sum/src/product_sum.cpp) |
