@@ -35,20 +35,20 @@ searching/binary_search/
 
 ## Array problems
 
-| Problems             | Links                                                           |
-| -------------------- | --------------------------------------------------------------- |
+| Problems             | Links                                                             |
+| -------------------- | ----------------------------------------------------------------- |
 | Validate Subsequence | [visit](arrays/validate_subsequence/src/validate_subsequence.cpp) |
 
 ## Searching
 
-| Problems      | Links                                             |
-| ------------- | ------------------------------------------------- |
+| Problems      | Links                                                  |
+| ------------- | ------------------------------------------------------ |
 | Binary Search | [visit](searching/binary_search/src/binary_search.cpp) |
 
 ## Tree problems
 
-| Problems                    | Links                                                               |
-| --------------------------- | ------------------------------------------------------------------- |
+| Problems                    | Links                                                                |
+| --------------------------- | -------------------------------------------------------------------- |
 | BST Construction            | [visit](trees/bst_construction/src/bst.cpp)                          |
 | Branch Sums                 | [visit](trees/branchsums/branchsums.cpp)                             |
 | Find nearest element in BST | [visit](trees/nearest_element_in_bst/src/nearest_element_in_bst.cpp) |
@@ -56,13 +56,21 @@ searching/binary_search/
 
 ## String problems
 
-| Problems       | Links                                               |
-| -------------- | --------------------------------------------------- |
+| Problems       | Links                                                  |
+| -------------- | ------------------------------------------------------ |
 | Group Anagrams | [visit](strings/group_anagrams/src/group_anagrams.cpp) |
 
 ## Recursion
 
-| Problems       | Links                                         |
-| -------------- | --------------------------------------------- |
+| Problems       | Links                                              |
+| -------------- | -------------------------------------------------- |
 | Nth Fibonaccit | [visit](recursion/nth_fib/src/nth_fib.cpp)         |
 | Product Sum    | [visit](recursion/product_sum/src/product_sum.cpp) |
+
+## Sorting
+
+| Problems       | Links                                               |
+| -------------- | --------------------------------------------------- |
+| Bubble Sort    | [visit](sorting/src/bubble_sort.cpp)        |
+| Insertion Sort | [visit](sorting/src/insertion_sort.cpp) |
+| Selection Sort | [visit](sorting/src/selection_sort.cpp) |
