@@ -60,6 +60,12 @@ searching/binary_search/
 | -------------- | ------------------------------------------------------ |
 | Group Anagrams | [visit](strings/group_anagrams/src/group_anagrams.cpp) |
 
+## Heap problems
+
+| Problems              | Links                                                 |
+| --------------------- | ----------------------------------------------------- |
+| Min Heap Construction | [visit](heaps/min_heap_construction/src/min_heap.cpp) |
+
 ## Recursion
 
 | Problems       | Links                                              |
@@ -67,10 +73,13 @@ searching/binary_search/
 | Nth Fibonaccit | [visit](recursion/nth_fib/src/nth_fib.cpp)         |
 | Product Sum    | [visit](recursion/product_sum/src/product_sum.cpp) |
 
-## Sorting
+## Sorting Techniques
 
-| Problems       | Links                                               |
-| -------------- | --------------------------------------------------- |
-| Bubble Sort    | [visit](sorting/src/bubble_sort.cpp)        |
+| Problems       | Links                                   |
+| -------------- | --------------------------------------- |
+| Bubble Sort    | [visit](sorting/src/bubble_sort.cpp)    |
 | Insertion Sort | [visit](sorting/src/insertion_sort.cpp) |
 | Selection Sort | [visit](sorting/src/selection_sort.cpp) |
+| Quick Sort     | [visit](sorting/src/quick_sort.cpp)     |
+| Heap Sort      | [visit](sorting/src/heap_sort.cpp)      |
+| Merge Sort     | [visit](sorting/src/merge_sort.cpp)     |
