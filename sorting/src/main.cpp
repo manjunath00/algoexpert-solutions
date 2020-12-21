@@ -25,6 +25,27 @@ TEST(SelectionSortTest, SortElements) {
   ASSERT_EQ(selection_sort(arr), expected);
 }
 
+TEST(QuickSortTest, SortElements) {
+  vector<int> arr {8, 5, 2, 9, 5, 6, 3};
+  vector<int> expected {2, 3, 5, 5, 6, 8, 9};
+
+  ASSERT_EQ(quick_sort(arr), expected);
+}
+
+TEST(HeapSortTest, SortElements) {
+  vector<int> arr {8, 5, 2, 9, 5, 6, 3};
+  vector<int> expected {2, 3, 5, 5, 6, 8, 9};
+
+  ASSERT_EQ(heap_sort(arr), expected);
+}
+
+TEST(MergeSortTest, SortElements) {
+  vector<int> arr {8, 5, 2, 9, 5, 6, 3};
+  vector<int> expected {2, 3, 5, 5, 6, 8, 9};
+
+  ASSERT_EQ(merge_sort(arr), expected);
+}
+
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
