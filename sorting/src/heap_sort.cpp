@@ -35,6 +35,7 @@ void build_heap(vector<int> &arr) {
 }
 
 
+// O(nlogn) time / o(1) space
 vector<int> heap_sort(vector<int> arr) {
   build_heap(arr);
 
